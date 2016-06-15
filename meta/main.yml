@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Sam Doran
+  description: "Install JBoss Fuse on EAP"
+  company:
+  license: MIT
+  min_ansible_version: 2.0
+
+  platforms:
+  - name: EL
+    versions:
+      - 6
+      - 7
+
+  galaxy_tags:
+    - jboss
+    - java
+    - eap
+    - fuse
+
+dependencies: []
