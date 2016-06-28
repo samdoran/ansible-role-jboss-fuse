@@ -22,8 +22,9 @@ Role Variables
 Dependencies
 ------------
 
-- `samdoran.java`
 - `samdoran.redhat-subscription`
+- `samdoran.java`
+- `samdoran.jboss-eap`
 
 Example Playbook
 ----------------
