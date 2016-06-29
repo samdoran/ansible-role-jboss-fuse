@@ -15,7 +15,7 @@
     - jboss_fuse
 
 - name: Install Fuse
-  command: "java -jar {{ jboss_fuse_install_dir }}/{{ jboss_fuse_jar_file }}"
+  command: "java -jar {{ jboss_fuse_install_dir }}/{{ jboss_fuse_jar_file | basename }}"
   become: yes
   become_user: "{{ jboss_eap_user }}"
   args:
