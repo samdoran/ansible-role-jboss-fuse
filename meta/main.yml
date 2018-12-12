@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: jboss-fuse
   author: Sam Doran
   description: "Install JBoss Fuse on EAP"
   company:
